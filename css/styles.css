@@ -39,9 +39,23 @@ main {
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px #888888;
     padding: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 h3 {
     margin: 0;
+}
+h5 {
+    margin: 0;
+}
+p {
+    margin-top: 1rem;
+}
+.cent-main {
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .banner {
     width: 100%;
