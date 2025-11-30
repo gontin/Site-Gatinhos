@@ -1,82 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap");
 body {
-    margin: 0;
-    font-family: "Caveat", cursive;
-    background-color: rgb(239, 255, 255);
+  margin: 0;
+  font-family: "Caveat", cursive;
+  background-color: rgb(239, 255, 255);
 }
 nav {
-    font-size: 1.5rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-    text-align: center;
-    box-shadow: 5px 5px 10px #888888;
-    padding: 20px;
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  box-shadow: 5px 5px 10px #888888;
+  padding: 20px;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 nav a {
-    display: inline-block;
-    padding: 5px;
-    text-decoration: none;
-    color: black;
-    transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease-in-out;
 }
 nav a:hover {
-    transform: scale(1.2);
-
+  transform: scale(1.2);
 }
 main {
-    font-size: 1.75rem;
-    z-index: 1;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px #888888;
-    padding: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
+  font-size: 1.75rem;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px #888888;
+  padding: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 h3 {
-    margin: 0;
+  margin: 0;
 }
 h5 {
-    margin: 0;
+  margin: 0;
 }
 p {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 .cent-main {
-    display: flex;
-    justify-content: center;
-    padding-left: 20%;
-    padding-right: 20%;
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .banner {
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
 }
 .banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .linha-vertical {
-    width: 2px;
-    height: 50rem;
-    background-color: black;
+  width: 2px;
+  height: 50rem;
+  background-color: black;
 }
 .comids {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .divcomidumida {
