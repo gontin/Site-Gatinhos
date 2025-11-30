@@ -60,7 +60,7 @@ main {
   background-color: white;
   box-shadow: 5px 5px 10px #888888;
 
-  padding: 40px 20%;
+  padding: 10px 20%;
 }
 .food-comparison {
   display: flex;
