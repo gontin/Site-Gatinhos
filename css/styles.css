@@ -21,6 +21,10 @@ nav {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
+head {
+  display: flex;
+  flex-direction: row;
+}
 
 nav h3 {
   margin: 0;
@@ -109,23 +113,19 @@ main {
 
 .health-section h2 {
   margin-bottom: 15px;
-  font-size: 2.3rem;
 }
 
 .health-section h3 {
   margin-top: 25px;
-  font-size: 1.9rem;
 }
 
 .health-section p {
-  font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
 .health-section ul {
   padding-left: 20px;
   text-align: left;
-  font-size: 1.5rem;
 }
 
 .health-section ul li {
@@ -158,6 +158,7 @@ main {
 /* FIM SESSÃO SAUDE */
 .topics {
   margin-bottom: 80px;
+  text-align: left;
 }
 .external-buttons {
   display: flex;
@@ -194,11 +195,10 @@ main {
 #menuvisual {
   padding: 0;
   margin: 0;
-
 }
 .menu-cards a {
   background-color: #ffffff;
-  width: 140px;          /* menor */
+  width: 140px; /* menor */
   padding: 10px;
   border-radius: 20px;
   text-decoration: none;
@@ -221,12 +221,46 @@ main {
 
 .menu-cards img {
   width: 100%;
-  height: 130px;          /* menor */
+  height: 200px;
   object-fit: cover;
   border-radius: 12px;
 }
 
 .menu-cards h4 {
   margin: 0;
-  font-size: 1.2rem;     /* menor */
+  font-size: 1.5rem;
+}
+
+#whatsappForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+  height: 1rem;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+}
+form button {
+  background-color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+form button:hover {
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  transform: scale(1.06);
 }
