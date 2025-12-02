@@ -110,6 +110,8 @@ main {
   flex-direction: column;
   width: 100%;
   padding: 30px;
+  align-items: center;
+  gap: 10px;
 }
 
 .section h2 {
