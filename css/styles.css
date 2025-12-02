@@ -26,7 +26,7 @@ head {
   flex-direction: row;
 }
 
-nav h3 {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
@@ -264,7 +264,9 @@ form button:hover {
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
   transform: scale(1.06);
 }
-
+footer {
+margin-bottom: 50px;
+}
 .CatImage {
   width: 100%;
   border-radius: 10px;
