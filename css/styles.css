@@ -21,12 +21,12 @@ nav {
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;
 }
-head {
-  display: flex;
-  flex-direction: row;
-}
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -70,6 +70,7 @@ main {
 
   padding: 10px 20%;
 }
+
 .food-comparison {
   display: flex;
   gap: 30px;
@@ -104,36 +105,37 @@ main {
 }
 
 /* SESSÃO DE SAUDE */
-.health-section {
+.section {
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 30px;
 }
 
-.health-section h2 {
+.section h2 {
   margin-bottom: 15px;
 }
 
-.health-section h3 {
+.section h3 {
   margin-top: 25px;
 }
 
-.health-section p {
+.section p {
   margin-bottom: 15px;
 }
 
-.health-section ul {
+.section ul {
   padding-left: 20px;
   text-align: left;
 }
 
-.health-section ul li {
+.section ul li {
   margin-bottom: 10px;
 }
 
 .img-area {
   display: flex;
+  gap: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -141,15 +143,15 @@ main {
   text-align: center;
 }
 
-.img-area div {
-  margin-right: 50px;
+.div_image {
   flex-wrap: wrap;
+  width: 40%;
 }
 
+
 .health-img {
-  width: 100%;
-  max-width: 450px;
-  height: auto;
+  min-width: 600px;
+  width: 50% ;
   flex-shrink: 0;
   border-radius: 25px;
   box-shadow: 3px 3px 10px #bcbcbc;
@@ -256,20 +258,33 @@ form button {
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
 form button:hover {
-  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
   transform: scale(1.06);
 }
 footer {
-margin-bottom: 50px;
+  margin: 50px;
 }
 .CatImage {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 50px;
+}
+#gatogif {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 20rem;
+}
+#lembrete {
+  margin-top: 20px;
+}
+.gif-area {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
