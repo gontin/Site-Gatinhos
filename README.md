@@ -1,9 +1,9 @@
 # Site-Gatinhos
 
 ## Grupo:
-Matheus Galdino
-Gustavo Nicoletti
-Kamily Kauany
+- Matheus Galdino
+- Gustavo Nicoletti
+- Kamily Kauany
 
 
 ## Miau?
